@@ -20,6 +20,7 @@ version de java utilisé : 17
 ___
 ### Chaines de caractères :
 - [Table of content](https://www.codingame.com/training/easy/table-of-contents)
+- [Enigma machine](https://www.codingame.com/training/easy/encryptiondecryption-of-enigma-machine)
 ___
 ### Machine à état :
 - [Is that a possible word](https://www.codingame.com/training/easy/is-that-a-possible-word)

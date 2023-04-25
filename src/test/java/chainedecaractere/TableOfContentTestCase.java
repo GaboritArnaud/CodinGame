@@ -1,6 +1,6 @@
 package chainedecaractere;
 
-public class IsThatAPossibleWordTestCase {
+public class TableOfContentTestCase {
     public final static String INPUT1 = """
             40
             5
