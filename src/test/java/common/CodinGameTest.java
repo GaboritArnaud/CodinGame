@@ -1,6 +1,8 @@
 package common;
 
 import asciiart.*;
+import chainedecaractere.EnigmaMachine;
+import chainedecaractere.EnigmaMachineTest;
 import chainedecaractere.TableOfContent;
 import chainedecaractere.TableOfContentTest;
 import org.junit.jupiter.api.TestInstance;
@@ -34,30 +36,20 @@ public abstract class CodinGameTest {
         assertEquals(expected, outContent.toString().replace("\r", ""));
     }
 
-
     private void executeMain() {
-        if (this instanceof CardCastleTest) {
-            CardCastle.main(null);
-        } else if (this instanceof CropCircleTest) {
-            CropCircle.main(null);
-        } else if (this instanceof GlassStackingTest) {
-            GlassStacking.main(null);
-        } else if (this instanceof MayTheTriforceBeWithYouTest) {
-            MayTheTriforceBeWithYou.main(null);
-        } else if (this instanceof MountainMapTest) {
-            MountainMap.main(null);
-        } else if (this instanceof RetroTypewriterArtTest) {
-            RetroTypewriterArt.main(null);
-        } else if (this instanceof SevenSegmentScannerTest) {
-            SevenSegmentScanner.main(null);
-        } else if (this instanceof UlamSpiralTest) {
-            UlamSpiral.main(null);
-        } else if (this instanceof TableOfContentTest) {
-            TableOfContent.main(null);
-        } else if (this instanceof IsThatAPossibleWordTest) {
-            IsThatAPossibleWord.main(null);
-        } else {
-            throw new RuntimeException(String.format("Unable to execute tests for %s", this.getClass()));
+        switch (this) {
+            case CardCastleTest ignored -> CardCastle.main(null);
+            case CropCircleTest ignored -> CropCircle.main(null);
+            case GlassStackingTest ignored -> GlassStacking.main(null);
+            case MayTheTriforceBeWithYouTest ignored -> MayTheTriforceBeWithYou.main(null);
+            case MountainMapTest ignored -> MountainMap.main(null);
+            case RetroTypewriterArtTest ignored -> RetroTypewriterArt.main(null);
+            case SevenSegmentScannerTest ignored -> SevenSegmentScanner.main(null);
+            case UlamSpiralTest ignored -> UlamSpiral.main(null);
+            case TableOfContentTest ignored -> TableOfContent.main(null);
+            case IsThatAPossibleWordTest ignored -> IsThatAPossibleWord.main(null);
+            case EnigmaMachineTest ignored -> EnigmaMachine.main(null);
+            default -> throw new IllegalStateException(String.format("Unable to execute tests for %s", this.getClass()));
         }
     }
 

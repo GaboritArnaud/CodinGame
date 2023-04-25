@@ -9,10 +9,10 @@ public class TableOfContentTest extends CodinGameTest {
 
     public Stream<Arguments> provideParamsForMainTest() {
         return Stream.of(
-                Arguments.of(IsThatAPossibleWordTestCase.INPUT1, IsThatAPossibleWordTestCase.EXPECTED1),
-                Arguments.of(IsThatAPossibleWordTestCase.INPUT2, IsThatAPossibleWordTestCase.EXPECTED2),
-                Arguments.of(IsThatAPossibleWordTestCase.INPUT3, IsThatAPossibleWordTestCase.EXPECTED3),
-                Arguments.of(IsThatAPossibleWordTestCase.INPUT4, IsThatAPossibleWordTestCase.EXPECTED4)
+                Arguments.of(TableOfContentTestCase.INPUT1, TableOfContentTestCase.EXPECTED1),
+                Arguments.of(TableOfContentTestCase.INPUT2, TableOfContentTestCase.EXPECTED2),
+                Arguments.of(TableOfContentTestCase.INPUT3, TableOfContentTestCase.EXPECTED3),
+                Arguments.of(TableOfContentTestCase.INPUT4, TableOfContentTestCase.EXPECTED4)
         );
     }
 }
