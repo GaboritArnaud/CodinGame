@@ -17,11 +17,24 @@ version de java utilisé : 17
 - [Retro typewriter art](https://www.codingame.com/training/easy/retro-typewriter-art)
 - [Seven segment scanner](https://www.codingame.com/training/easy/7-segment-scanner)
 - [Ulam spiral](https://www.codingame.com/training/easy/ulam-spiral)
+
 ___
+
 ### Chaines de caractères :
+
 - [Table of content](https://www.codingame.com/training/easy/table-of-contents)
 - [Enigma machine](https://www.codingame.com/training/easy/encryptiondecryption-of-enigma-machine)
+
 ___
+
 ### Machine à état :
+
 - [Is that a possible word](https://www.codingame.com/training/easy/is-that-a-possible-word)
+
+___
+
+### Unités de mesure :
+
+- [Metric units](https://www.codingame.com/training/easy/metric-units)
+
 ___

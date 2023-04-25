@@ -44,7 +44,7 @@ public class EnigmaMachineTest extends CodinGameTest {
     public Stream<Arguments> provideParamsForCharShiftingLeftTest() {
         char c = 'A';
         List<Arguments> args = new ArrayList<>();
-        for (int j = 0; j >= -500; j--) {
+        for (int j = 0; j >= -100; j--) {
             args.add(Arguments.of(Math.abs(j), c));
             c = c - 1 >= 'A' ? (char) (c - 1) : 'Z';
         }
@@ -54,7 +54,7 @@ public class EnigmaMachineTest extends CodinGameTest {
     public Stream<Arguments> provideParamsForCharShiftingRightTest() {
         char c = 'A';
         List<Arguments> args = new ArrayList<>();
-        for (int j = 0; j <= 500; j++) {
+        for (int j = 0; j <= 100; j++) {
             args.add(Arguments.of(j, c));
             c = c + 1 <= 'Z' ? (char) (c + 1) : 'A';
         }

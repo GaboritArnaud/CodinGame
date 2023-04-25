@@ -5,6 +5,8 @@ import chainedecaractere.EnigmaMachine;
 import chainedecaractere.EnigmaMachineTest;
 import chainedecaractere.TableOfContent;
 import chainedecaractere.TableOfContentTest;
+import metricinits.MetricUnits;
+import metricunits.MetricUnitsTest;
 import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
@@ -49,6 +51,7 @@ public abstract class CodinGameTest {
             case TableOfContentTest ignored -> TableOfContent.main(null);
             case IsThatAPossibleWordTest ignored -> IsThatAPossibleWord.main(null);
             case EnigmaMachineTest ignored -> EnigmaMachine.main(null);
+            case MetricUnitsTest ignored -> MetricUnits.main(null);
             default -> throw new IllegalStateException(String.format("Unable to execute tests for %s", this.getClass()));
         }
     }
