@@ -38,3 +38,9 @@ ___
 - [Metric units](https://www.codingame.com/training/easy/metric-units)
 
 ___
+
+### Conditions :
+
+- [Blackjack solver](https://www.codingame.com/training/easy/blackjack-solver)
+
+___
