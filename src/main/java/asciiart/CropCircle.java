@@ -1,6 +1,9 @@
 package asciiart;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
 
 public class CropCircle {
 
@@ -42,12 +45,12 @@ public class CropCircle {
     }
 
     public static class Circle {
-        private final Point point;
+        private final Point center;
         private final int size;
         private final Type type;
 
-        public Circle(Point point, int size, Type type) {
-            this.point = point;
+        public Circle(Point center, int size, Type type) {
+            this.center = center;
             this.size = size;
             this.type = type;
         }
@@ -61,7 +64,7 @@ public class CropCircle {
             }
             int x = circle.charAt(0) - 'a';
             int y = circle.charAt(1) - 'a';
-            point = new Point(x, y);
+            center = new Point(x, y);
             try {
                 size = Integer.parseInt(circle.substring(2));
             } catch (Exception e) {
@@ -71,7 +74,7 @@ public class CropCircle {
 
         public boolean isInCircle(Point p) {
             int r = size / 2;
-            double d = Math.sqrt(Math.pow(p.x - point.x, 2) + Math.pow(p.y - point.y, 2));
+            double d = Math.sqrt(Math.pow(p.x - center.x, 2) + Math.pow(p.y - center.y, 2));
             return Math.round(d) <= r;
         }
 

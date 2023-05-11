@@ -7,6 +7,8 @@ import chainedecaractere.TableOfContent;
 import chainedecaractere.TableOfContentTest;
 import condition.BlackJackSolver;
 import condition.BlackJackSolverTest;
+import math.GreatestCommonDivisor;
+import math.GreatestCommonDivisorTest;
 import metricunits.MetricUnits;
 import metricunits.MetricUnitsTest;
 import org.junit.jupiter.api.TestInstance;
@@ -54,7 +56,8 @@ public abstract class CodinGameTest {
             case IsThatAPossibleWordTest ignored -> IsThatAPossibleWord.main(null);
             case EnigmaMachineTest ignored -> EnigmaMachine.main(null);
             case MetricUnitsTest ignored -> MetricUnits.main(null);
-            case BlackJackSolverTest ignore -> BlackJackSolver.main(null);
+            case BlackJackSolverTest ignored -> BlackJackSolver.main(null);
+            case GreatestCommonDivisorTest ignored -> GreatestCommonDivisor.main(null);
             default -> throw new IllegalStateException(String.format("Unable to execute tests for %s", this.getClass()));
         }
     }
