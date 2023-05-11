@@ -54,4 +54,22 @@ public class MetricUnitsTestCase {
     public final static String EXPECTED9 = """
             16051.8um
             """;
+
+    public final static String INPUT10 = """
+            1m + 1cm + 1mm""";
+    public final static String EXPECTED10 = """
+            1011mm
+            """;
+
+    public final static String INPUT11 = """
+            1m + 1cm - 1mm""";
+    public final static String EXPECTED11 = """
+            1009mm
+            """;
+
+    public final static String INPUT12 = """
+            1mm - 1m""";
+    public final static String EXPECTED12 = """
+            -999mm
+            """;
 }

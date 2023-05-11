@@ -17,7 +17,10 @@ public class MetricUnitsTest extends CodinGameTest {
                 Arguments.of(MetricUnitsTestCase.INPUT6, MetricUnitsTestCase.EXPECTED6),
                 Arguments.of(MetricUnitsTestCase.INPUT7, MetricUnitsTestCase.EXPECTED7),
                 Arguments.of(MetricUnitsTestCase.INPUT8, MetricUnitsTestCase.EXPECTED8),
-                Arguments.of(MetricUnitsTestCase.INPUT9, MetricUnitsTestCase.EXPECTED9)
+                Arguments.of(MetricUnitsTestCase.INPUT9, MetricUnitsTestCase.EXPECTED9),
+                Arguments.of(MetricUnitsTestCase.INPUT10, MetricUnitsTestCase.EXPECTED10),
+                Arguments.of(MetricUnitsTestCase.INPUT11, MetricUnitsTestCase.EXPECTED11),
+                Arguments.of(MetricUnitsTestCase.INPUT12, MetricUnitsTestCase.EXPECTED12)
         );
     }
 }

@@ -7,7 +7,7 @@ import chainedecaractere.TableOfContent;
 import chainedecaractere.TableOfContentTest;
 import condition.BlackJackSolver;
 import condition.BlackJackSolverTest;
-import metricinits.MetricUnits;
+import metricunits.MetricUnits;
 import metricunits.MetricUnitsTest;
 import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.params.ParameterizedTest;
