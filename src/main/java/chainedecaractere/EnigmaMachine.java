@@ -50,8 +50,6 @@ public class EnigmaMachine {
             System.out.println(decode());
         } else if (Operation.ENCODE.equals(operation)) {
             System.out.println(encode());
-        } else {
-            throw new IllegalArgumentException(String.format("L'operation n'est pas gérée %s", operation));
         }
     }
 

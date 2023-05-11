@@ -35,9 +35,9 @@ public class BlackJackSolver {
         };
     }
 
-    private enum TypePlayer {BANK, PLAYER}
+    enum TypePlayer {BANK, PLAYER}
 
-    private static class Card {
+    public static class Card {
 
         private final int value;
         private final int countOfcard;
