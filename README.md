@@ -44,3 +44,9 @@ ___
 - [Blackjack solver](https://www.codingame.com/training/easy/blackjack-solver)
 
 ___
+
+### Maths :
+
+- [Euclid's Algorithm](https://www.codingame.com/training/easy/euclids-algorithm)
+
+___
