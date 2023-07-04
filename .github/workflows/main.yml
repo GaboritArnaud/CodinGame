@@ -1,0 +1,11 @@
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+     - name: test test
+       run: echo "test"
