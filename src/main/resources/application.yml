@@ -1,0 +1,14 @@
+codingame:
+  user:
+    id: 1311165
+  api:
+    baseUrl: https://www.codingame.com
+
+    findAllMinimalProblem: ${codingame.api.baseUrl}/services/Puzzle/findAllMinimalProgress
+    findProblemByPrettyId: ${codingame.api.baseUrl}/services/Puzzle/findProgressByPrettyId
+    findProblemByIds: ${codingame.api.baseUrl}//services/Puzzle/findProgressByIds
+
+    generateSessionFromPuzzlePrettyId: ${codingame.api.baseUrl}/services/Puzzle/generateSessionFromPuzzlePrettyId
+    startTestSession: ${codingame.api.baseUrl}/services/TestSession/startTestSession
+
+    getTestValueById: ${codingame.api.baseUrl}/servlet/fileservlet?id={id}
