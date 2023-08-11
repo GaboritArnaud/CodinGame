@@ -1,0 +1,50 @@
+$default-color: #2E404F;
+$default-color-hover: #2E404F5D;
+$validate-color: #4CAF50;
+$validate-color-hover: #4CAF505D;
+$cancel-color: #FF6257;
+$cancel-color-hover: #FF62575D;
+
+.button {
+    background-color: $default-color;
+    color: white;
+    padding: 0.5rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 3px solid $default-color;
+    border-radius: 0.5rem;
+    position: static;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: $default-color-hover !important;
+    color: black;
+}
+
+.validate {
+    color: black !important;
+    background-color: $validate-color !important;
+    border-color: $validate-color !important;
+}
+
+.validate:hover {
+    background-color: $validate-color-hover !important;
+}
+
+.cancel {
+    color: black !important;
+    background-color: $cancel-color;
+    border-color: $cancel-color !important;
+}
+
+.cancel:hover {
+    background-color: $cancel-color-hover !important;
+}
+
+.disabled {
+    background-color: #e7e7e7; color: black;
+    border-color: #e7e7e7; color: black !important;
+}
